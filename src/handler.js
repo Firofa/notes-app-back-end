@@ -63,7 +63,7 @@ const getNoteByIdHandler = (request, h) => {
 
   const response = h.response({
     status: "fail",
-    message: "Catatab tidak ditemukan",
+    message: "Catatan tidak ditemukan",
   });
   response.code(404);
   return response;
@@ -96,7 +96,7 @@ const editNoteByIdHandler = (request, h) => {
 
   const response = h.response({
     status: "fail",
-    message: "Catatan Gagal diperbarui",
+    message: "Catatan gagal diperbarui",
   });
   response.code(404);
   return response;
