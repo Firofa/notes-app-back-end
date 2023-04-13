@@ -86,6 +86,8 @@ const editNoteByIdHandler = (request, h) => {
       body,
       updatedAt,
     };
+    response.code(200);
+    return response;
   }
 
   const response = h.response({
